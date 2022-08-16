@@ -27,7 +27,7 @@ int main(){
 		printf("Matriz aleatoria B\n");
 		impresion(matrizB,n);
 		producto(matrizA,matrizB,matrizC,n);		
-		printf("Resultado de la resta de A y B\n");
+		printf("Resultado del producto de A y B\n");
 		impresion(matrizC,n);
 
 	}else
