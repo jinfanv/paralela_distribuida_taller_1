@@ -21,9 +21,7 @@ int main(){
 	
 	if (n <= 8)
 	{
-		inicialization(matrizA,n);
-		inicialization(matrizB,n);
-
+		inicialization(matrizA, matrizB,n);		
 		printf("Matriz aleatoria A\n");
 		impresion(matrizA,n);
 		printf("Matriz aleatoria B\n");

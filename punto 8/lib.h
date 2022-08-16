@@ -11,7 +11,7 @@
 
 void impresion(int matriz[],int n);
 
-void inicialization(int matriz[], int n);
+void inicialization(int matrizA[], int matrizB[], int n);
 
 void suma(int matrizA[], int matrizB[], int matrizC[], int n);
 

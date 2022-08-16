@@ -20,11 +20,12 @@ void impresion(int matriz[], int n){
 	printf("\n");
 }
 
-void inicialization(int matriz[], int n){
+void inicialization(int matrizA[], int matrizB[], int n){
 	srand(time(NULL)); //Generamos número aleatorio en base al tiempo
 	for(int i= 0; i < n; i++){
 		for(int j = 0; j < n; j++){
-			matriz[i+j*n] = rand() % 10;
+			matrizA[i+j*n] = rand() % 10;
+			matrizB[i+j*n] = rand() % 10;
 		}
 	}
 }
